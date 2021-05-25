@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 2413454}
   - component: {fileID: 2413453}
   - component: {fileID: 2413452}
-  - component: {fileID: 2413456}
+  - component: {fileID: 2413457}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -219,22 +219,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2413456
-Rigidbody:
+--- !u!114 &2413457
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2413451}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de29b7c49579aaf4da89319d522de5e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScaleChange: {x: 1, y: 1, z: 1}
 --- !u!1 &1068606828
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +244,6 @@ GameObject:
   - component: {fileID: 1068606831}
   - component: {fileID: 1068606830}
   - component: {fileID: 1068606829}
-  - component: {fileID: 1068606833}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -332,22 +328,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1068606833
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068606828}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1224204211
 GameObject:
   m_ObjectHideFlags: 0
